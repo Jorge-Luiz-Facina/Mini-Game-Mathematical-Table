@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mathematical Table</string>
+
+    <string name="score">SCORE</string>
+    <string name="total">TOTAL</string>
+
+    <string-array name="Levels">
+        <item name="level01">I</item>
+        <item name="level02">II</item>
+        <item name="level03">III</item>
+        <item name="level04">IV</item>
+        <item name="level05">V</item>
+        <item name="level06">VI</item>
+        <item name="level07">VII</item>
+        <item name="level08">VIII</item>
+        <item name="level09">IX</item>
+        <item name="level10">X</item>
+    </string-array>
+</resources>
