@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listBackground">
+
+    <TextView
+            android:id="@+id/textViewScore10"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView10"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore09"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView09"
+            android:layout_alignBottom="@+id/textView09"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore08"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView08"
+            android:layout_alignBottom="@+id/textView08"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore07"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView07"
+            android:layout_alignBottom="@+id/textView07"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore06"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView06"
+            android:layout_alignBottom="@+id/textView06"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore05"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView05"
+            android:layout_alignBottom="@+id/textView05"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore04"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView04"
+            android:layout_alignBottom="@+id/textView04"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore03"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView03"
+            android:layout_alignBottom="@+id/textView03"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore02"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView02"
+            android:layout_alignBottom="@+id/textView02"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textViewScore01"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView01"
+            android:layout_alignBottom="@+id/textView01"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/textViewScoreTotal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTotal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:gravity="center" />
+
+    <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView09"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore10"
+            android:layout_toStartOf="@+id/textViewScore10"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="X" />
+
+    <TextView
+            android:id="@+id/textView09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView08"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore09"
+            android:layout_toStartOf="@+id/textViewScore09"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="IX" />
+
+    <TextView
+            android:id="@+id/textView08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView07"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore08"
+            android:layout_toStartOf="@+id/textViewScore08"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="VIII" />
+
+    <TextView
+            android:id="@+id/textView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView06"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore07"
+            android:layout_toStartOf="@+id/textViewScore07"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="VII" />
+
+    <TextView
+            android:id="@+id/textView06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView05"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore06"
+            android:layout_toStartOf="@+id/textViewScore06"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="VI" />
+
+    <TextView
+            android:id="@+id/textView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView04"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore05"
+            android:layout_toStartOf="@+id/textViewScore05"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="V" />
+
+    <TextView
+            android:id="@+id/textView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView03"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore04"
+            android:layout_toStartOf="@+id/textViewScore04"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="IV" />
+
+    <TextView
+            android:id="@+id/textView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView02"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore03"
+            android:layout_toStartOf="@+id/textViewScore03"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="III" />
+
+    <TextView
+            android:id="@+id/textView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView01"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/textViewScore02"
+            android:layout_toStartOf="@+id/textViewScore02"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="II" />
+
+    <TextView
+            android:id="@+id/textView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewLevel"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/textViewScore01"
+            android:layout_toStartOf="@+id/textViewScore01"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:text="I" />
+
+    <TextView
+            android:id="@+id/textViewLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewScore"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textViewScore"
+            android:layout_toStartOf="@+id/textViewScore"
+            android:background="@color/SteelBlue"
+            android:gravity="center"
+            android:text="LEVEL"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+            android:id="@+id/textViewScore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textViewScore01"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textViewScore01"
+            android:background="@color/SteelBlue"
+            android:gravity="center"
+            android:text="@string/score"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/DarkSeaGreen"
+            android:gravity="center"
+            android:text="@string/total"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+</RelativeLayout>
