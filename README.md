@@ -21,8 +21,3 @@
 ## Reference
 - [Math Operations](https://play.google.com/store/apps/details?id=math.operacao)
  
-
-## Author
-
-| [<img src="https://avatars.githubusercontent.com/MainDuel?v=3&s=115"><br><sub>@MainDuel</sub>](https://github.com/MainDuel) |
-| :---: |
